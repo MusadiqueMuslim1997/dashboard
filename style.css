@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: blue;
+    gap: 20px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.personal {
+    width: 60%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.name {
+    width: 20%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: white;
+    font-weight: 700;
+}
+
+.logout {
+    width: 10%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: white;
+}
+
+@media screen and (max-width:740px){
+    .personal{
+        font-size: 1rem;
+    }
+    .name{
+        font-size: 0.8rem;
+    }
+    .logout{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:550px){
+.nav{
+    padding: 20px 30px;;
+}
+.personal{
+    font-size: 0.8rem;
+}
+.name{
+    font-size: 0.6rem;
+}
+.logout{
+    font-size: 0.6rem;
+}
+}
