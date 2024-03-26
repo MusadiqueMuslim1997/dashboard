@@ -69,7 +69,7 @@
     font-size: 2rem;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
-   
+
 }
 
 .profile {
@@ -85,7 +85,7 @@
 .profile-1 {
     width: 65%;
 
-   
+
     background-color: white;
     display: flex;
     align-items: center;
@@ -221,7 +221,7 @@
 
     .pro {
         padding: 20px 30px;
-        height: 60px;
+        height: 40px;
 
     }
 
@@ -232,15 +232,26 @@
     .profile {
         width: 100%;
         justify-content: center;
-        padding: 20px 30px;
+        padding: 0px 30px;
     }
 
     .profile-1 {
         width: 100%;
         justify-content: center;
+        padding: 10px;
     }
 
     .cards {
-        width: 320px;
+        width: 280px;
+    }
+
+    .imgs {
+        height: 240px;
+        object-fit: cover;
+    }
+
+  .imgs>img {
+     width: 100%;
+        height: 180px;
     }
 }
