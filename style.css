@@ -243,6 +243,7 @@
 
     .cards {
         width: 280px;
+        gap: 15px;
     }
 
     .imgs {
