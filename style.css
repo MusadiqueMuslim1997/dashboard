@@ -50,29 +50,61 @@
     font-size: 1.2rem;
     color: white;
 }
+.pro {
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: white;
 
-@media screen and (max-width:740px){
-    .personal{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.pro>h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:740px) {
+    .personal {
         font-size: 1rem;
     }
-    .name{
+
+    .name {
         font-size: 0.8rem;
     }
-    .logout{
+
+    .logout {
         font-size: 0.8rem;
     }
+    
 }
-@media screen and (max-width:550px){
-.nav{
-    padding: 20px 30px;;
-}
-.personal{
-    font-size: 0.8rem;
-}
-.name{
-    font-size: 0.6rem;
-}
-.logout{
-    font-size: 0.6rem;
-}
-}
+
+@media screen and (max-width:550px) {
+    .nav {
+        padding: 20px 30px;
+        
+    }
+
+    .personal {
+        font-size: 0.8rem;
+    }
+
+    .name {
+        font-size: 0.6rem;
+    }
+
+    .logout {
+        font-size: 0.6rem;
+    }
+    .pro{
+        padding: 20px 30px;
+        height: 60px;
+        
+    }
+    .pro > h2{
+        font-size: 1.2rem;
+    }
+
