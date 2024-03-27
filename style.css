@@ -168,7 +168,7 @@ body{
 }
 
 .btn1 {
-    width: 120px;
+    width: 140px;
     height: 30px;
     display: flex;
     align-items: center;
@@ -177,6 +177,9 @@ body{
     color: white;
     background-color: #7749F8;
     border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
 }
 .Dashboard-card{
     width: 100%;
@@ -234,13 +237,15 @@ body{
     align-items: center;
 }
 .dash-btn > button{
-    width: 120px;
+    width: 140px;
     height: 30px;
     border: none;
     background-color: #7749F8;
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    font-weight: bolder;
+    padding: 10px;
 }
 @media screen and (max-width:740px) {
     .personal {
